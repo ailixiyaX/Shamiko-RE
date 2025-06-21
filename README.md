@@ -1,2 +1,7 @@
-# Shamiko
-Shamiko Whitelist Switch / Shamiko 白名单开关
+重置版
+-⭐性能
+-更好的性能
+-更加省电
+-💡功能
+-shamiko白名单开关
+-隐藏Root
