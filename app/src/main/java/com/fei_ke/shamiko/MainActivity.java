@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         boolean switchOn = Shamiko.isWhitelistModeOn();
         if (switchOn != whiteListSwitch.isChecked()) {
             whiteListSwitch.setChecked(switchOn);
+            printf("hi")
         }
     }
 }
