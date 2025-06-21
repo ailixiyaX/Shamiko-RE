@@ -15,13 +15,13 @@ class Shamiko {
         File flagFile = SuFile.open(FLAG_FILE);
         if (checked) {
             try {
-                flagFile.createNewFile();
+                flagFile.createNewFile(); //add file
             } catch (IOException e) {
                 Toast.makeText(context, e.getMessage(), Toast.LENGTH_SHORT).show();
                 e.printStackTrace();
             }
         } else {
-            flagFile.delete();
+            flagFile.delete(); //delete for whitelist file
         }
     }
 
